@@ -11,3 +11,6 @@
 
 # homeproxy
 #git clone --depth=1 https://github.com/immortalwrt/homeproxy.git package/homeproxy
+# passwall
+rm -rf feeds/luci/applications/luci-app-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall package/passwall-luci
